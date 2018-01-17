@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Viethoc</title>
     <%= csrf_meta_tags %>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans" rel="stylesheet">
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+            <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
 
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans" rel="stylesheet">
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Viethoc</a>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        <div class="search">
+       	 <i class="fa fa-search" aria-hidden="true"></i>
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
 
-  <body>
+        </div>
+        </form>
+      </div>
+    </nav>
+
     <%= yield %>
-  </body>
+</body>
+
 </html>

@@ -1,2 +1,56 @@
+
 @import "bootstrap";
+
 @import "font-awesome";
+
+body {
+	background-color:#e0fcff;
+}
+
+h1, h2 {
+	font-family: 'Inconsolata', monospace;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-header > .navbar-brand {
+	color: white;
+	font-size: 24px;
+	font-family: 'Inconsolata', monospace;
+	margin-left: 10px;
+}
+
+.navbar-light bg-faded {
+    background-color: #40496a;
+    border-color: #E7E7E7;
+    min-height: 80px;
+}
+
+.navbar-nav li a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.search { 
+	position: relative; 
+	}
+.search input { 
+	text-indent: 30px;
+}
+
+
+.search .fa-search 
+{ 
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 15px;
+}

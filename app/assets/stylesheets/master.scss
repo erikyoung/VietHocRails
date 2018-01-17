@@ -15,29 +15,32 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-header > .navbar-brand {
+ .navbar-brand {
 	color: white;
 	font-size: 24px;
 	font-family: 'Inconsolata', monospace;
 	margin-left: 10px;
 }
 
-.navbar-light bg-faded {
-    background-color: #40496a;
-    border-color: #E7E7E7;
-    min-height: 80px;
-}
-
-.navbar-nav li a {
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
 	color: white;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    color: #fff;
-    font-size: 10px;
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	font-size: 10px;
     font-family: 'Open Sans', sans-serif;
-
+    padding-top: 12px;
 }
+
+
+.bg-faded {
+	background-color: #40496a;
+	border-color: #E7E7E7;
+    min-height: 80px;
+}
+
+ 
 
 .search { 
 	position: relative; 
@@ -54,3 +57,191 @@ p {
   left: 12px;
   font-size: 15px;
 }
+
+.master-fundamentals {
+	font-weight: lighter;
+	opacity: 0.6;
+	display: inline;
+
+}
+
+#top-content {
+	font-size: 40px;
+}
+
+.container {
+	margin-left: 10px;
+}
+
+.middle-content > .course-materials {
+	text-align: center;
+}
+
+.practical-videos, .everyday-speaking {
+	color: #8996e3;
+}
+
+.btn-lg {
+  
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.button-holder {
+	margin-left: 20px;
+}
+
+
+
+#studying_pic {
+	float:left;
+}
+
+
+.courses-header {
+	text-align: center;
+}
+
+#course-image-content {
+	font-size:22px;
+	color: black;
+	text-align: center;
+}
+
+#course-special {
+	height: 400px;
+}
+
+.our-courses {
+	background-color: #bde4f5;
+}
+
+
+
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.information {
+	display: inline-block;
+}
+
+.enroll-header {
+
+	float: left;
+	
+}
+
+.btn-light {
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.see-the-syllabus {
+	font-family: 'Inconsolata', monospace;
+	
+}
+
+#speaking {
+	padding-top: 15px;
+}
+
+#enroll-today {
+	color: #251ec5;
+	margin-left: 10px;
+}
+
+.enroll-info {
+	background-color: #ff7f50;
+	padding-bottom: 20px;
+}
+
+#enrollment-stuff {
+	display: inline-block;
+	margin-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#read-more {
+	color: #251ec5;
+	margin-left: 10px;
+}
+
+.aspectRatioLock {
+    border: 2px solid transparent;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.2%; /* 16:9 */
+    height: 0;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+	background-color: #40496a;
+}
+
+.viet-hoc-info {
+	display: inline;
+	float: left;
+	margin-left: 20px;
+}
+
+.footer > .viet-hoc-info {
+	display:inline-block;
+}
+
+#site-name {
+	color: white;
+	font-family: 'Inconsolata', monospace;
+
+}
+
+#footer-content {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+	#top-content {
+		text-align: center;
+		display: inline-block;
+		font-size: 35px;
+
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	#course-image-content {
+		font-size: 30px;
+		margin: 10px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.ytp-cued-thumbnail-overlay-image {
+		max-width: 75%;
+	}
+}
+
+@media only screen and (min-width: 500) {
+	#course-special {
+		margin-bottom: 20px;
+	}
+}
+
+
+

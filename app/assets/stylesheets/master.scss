@@ -210,10 +210,26 @@ iframe {
 
 }
 
+b  {
+	color: #fff;
+	font-family: 'Inconsolata', monospace;
+}
+
+.contact-info {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
 
 
 
 
+.navbar-light .navbar-toggler-icon {
+	color: white;
+}
+
+#footer {
+	background-color: #40496a;
+}
 
 @media only screen and (max-width: 1000px) {
 	#top-content {

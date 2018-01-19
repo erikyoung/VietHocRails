@@ -131,6 +131,7 @@ p {
 .enroll-header {
 
 	float: left;
+	padding-top: 15px;
 	
 }
 
@@ -140,6 +141,7 @@ p {
 
 .see-the-syllabus {
 	font-family: 'Inconsolata', monospace;
+	padding-top: 15px;
 	
 }
 
@@ -173,16 +175,10 @@ p {
     max-width: 100%;
     width: 100%;
     position: relative;
-    padding-bottom: 56.2%; /* 16:9 */
+    padding-bottom: 30%; /* 16:9 */
     height: 0;
 }
-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+
 
 .footer {
 	background-color: #40496a;
@@ -229,6 +225,10 @@ b  {
 
 #footer {
 	background-color: #40496a;
+}
+
+.written-content {
+	margin-left: 60px;
 }
 
 @media only screen and (max-width: 1000px) {

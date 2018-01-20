@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="row">
-        <div class="top-content-on-left col">
+        <div class="top-content-on-left">
             <h1 class="learn-vietnamese">Learn Vietnamese</h1>
             <h2 class="master-fundamentals" id="top-content">Master the fundamentals</h2>
             <br />
@@ -10,11 +10,18 @@
             <br />
             <h2 class="get-a-job" style="color:red;" id="top-content">95% Job Placement</h2>
 
-            <%= link_to 'Courses Available', courses_path, class: 'btn btn-primary' %>
+            <div class="button">
+
+            <%= link_to 'Courses Available', courses_path, class: 'btn btn-primary'  %>
+
+            </div>
+
         </div>
         <!--top-content-->
         <div class="col">
+            
             <img src="/assets/learning.jpg" class="img-responsive" alt="learning" width="100%" style="margin-right:35px;margin-top: 32px;">
+           
         </div>
     </div>
     <!--col-12-->
@@ -90,6 +97,7 @@
             <!--course-image-container -->
         </div>
         <!-- row -->
+        </div>
     </div>
     <!--our courses -->
     <br />

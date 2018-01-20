@@ -18,7 +18,7 @@ class Instructor::CoursesController < ApplicationController
 		@course = Course.find(params[:id])
 	end
 
-	priavte
+	private
 
 	def course_params
 		params.require(:course).permit(:title, :description, :cost)

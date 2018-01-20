@@ -70,7 +70,7 @@
     <div id="footer">
       <div class="container">
         <div class="row">
-          <div class="contact-info col-12 col-sm-6">
+          <div class="contact-info col-12 col-sm-4">
             <b>Contact</b>
             <br />
             youngerik26@gmail.com
@@ -79,7 +79,7 @@
             <br />
             Rock Creek, Ohio, 44084
           </div><!-- div class col-12 -->
-          <div class="col-12 col-sm-6 social">
+          <div class="col-12 col-sm-4 social">
             <b>Social</b>
             <br />
             
@@ -94,8 +94,14 @@
               <% end %> 
               <%= link_to 'https://medium.com/@erikyoung_58444' do %> 
               <span class="fa fa-medium fa-2x social-button"></span>
-              <% end %> 
+
           </div><!-- col-12 -->
+          <div class="col-12 col-sm-4 teacher-admin">
+          <b>Teachers</b>
+              <br />
+              <%= link_to 'Teacher Admin Login', new_instructor_course_path, {:style=>'color:#f7a395', :class => "css_class"}%>
+              <% end %> 
+          </div>
         </div><!-- row -->
       </div> <!-- div container -->
    </div><!-- footer -->

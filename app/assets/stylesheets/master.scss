@@ -209,12 +209,38 @@ p {
 b  {
 	color: #fff;
 	font-family: 'Inconsolata', monospace;
+	font-size: 22px;
 }
 
 .contact-info {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 }
+
+.css_class {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+.css_class:link {
+    text-decoration: none;
+}
+
+/* visited link */
+.css_class:visited {
+     text-decoration: none;
+}
+
+/* mouse over link */
+.css_class:hover {
+     text-decoration: none;
+}
+
+/* selected link */
+.css_class:active {
+     text-decoration: none;
+    }
 
 
 

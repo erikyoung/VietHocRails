@@ -48,6 +48,17 @@ p {
 	background-color: #1598F2;
 	margin-left: 35px;
 	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
 }
 
 .btn-primary {

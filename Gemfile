@@ -13,6 +13,7 @@ gem 'jquery-rails'
 gem 'font-awesome-rails'
 gem 'simple_form'
 gem 'devise'
+gem 'carrierwave', '~> 1.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server

@@ -80,6 +80,23 @@ p {
 	color: white;
 }
 
+input[type='file'] {
+  display:none;
+margin:10px; 
+background-color: #FFFFFF;
+border:solid 1px #666F77; 
+}
+
+input[type=file] + label {
+display:inline-block;
+margin:20px;
+padding: 4px 32px;
+background-color: #FFFFFF;
+border:solid 1px #666F77;
+border-radius: 6px;
+color:#666F77;
+}
+
 .img-responsive {
 	border-radius: 25px;
 }

@@ -1,6 +1,5 @@
 
 @import "bootstrap";
-
 @import "font-awesome";
 
 body {
@@ -81,21 +80,39 @@ p {
 }
 
 input[type='file'] {
-  display:none;
+display:none;
 margin:10px; 
-background-color: #FFFFFF;
-border:solid 1px #666F77; 
+
+
 }
+
+.recognitionStyling {
+	display: inline-block;
+	color: #fff;
+	background-color: blue;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
 
 input[type=file] + label {
 display:inline-block;
 margin:20px;
 padding: 4px 32px;
-background-color: #FFFFFF;
+background-color: blue;
 border:solid 1px #666F77;
 border-radius: 6px;
 color:#666F77;
 }
+
+
 
 .img-responsive {
 	border-radius: 25px;

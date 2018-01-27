@@ -10,6 +10,7 @@ end
 gem 'rails', '~> 5.1.4'
 #necessary for bootstrap 4
 gem 'jquery-rails'
+gem "mini_magick"
 gem 'font-awesome-rails'
 gem 'simple_form'
 gem 'devise'

@@ -76,9 +76,7 @@ p {
 	border-bottom-width: 3px;
 }
 
-.header-about {
-	margin-bottom: 20px;
-}
+
 
 .navbar-light .navbar-brand, .navbar-light .navbar-toggler {
 	color: white;
@@ -123,6 +121,57 @@ background-color: blue;
 border:solid 1px #666F77;
 border-radius: 6px;
 color:#666F77;
+}
+
+.flag-founding {
+	height: 16px;
+	width: 16px;
+}
+
+.founding-info  {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.contact-title {
+	display: block;
+	font-size: 14px;
+
+}
+
+
+
+#name {
+	margin-left: 10px;
+}
+
+.contact_img {
+	height: 16px;
+	width: 16px;
+}
+
+#mission-title {
+	color: black;
+	margin-left: 5px;
+	opacity: 0.7;
+}
+
+.mission {
+	display: flex;
+}
+
+#mission-stuff {
+	margin-left: 10px;
+}
+
+.mission_img {
+	height: 16px;
+	width: 16px;
+}
+
+#about_us_font_size {
+	font-size: 14px;
+	margin-left: 10px;
 }
 
 .info-container .business-info .story-info {

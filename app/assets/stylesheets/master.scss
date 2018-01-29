@@ -76,6 +76,10 @@ p {
 	border-bottom-width: 3px;
 }
 
+.header-about {
+	margin-bottom: 20px;
+}
+
 .navbar-light .navbar-brand, .navbar-light .navbar-toggler {
 	color: white;
 }
@@ -119,6 +123,27 @@ background-color: blue;
 border:solid 1px #666F77;
 border-radius: 6px;
 color:#666F77;
+}
+
+.info-container .business-info .story-info {
+	display: inline-block;
+}
+
+.business-info {
+	font-weight: bold;
+	display:inline-block;
+	color: #999;
+	font-size: 14px;
+	letter-spacing: -0.01em;
+}
+
+.story-info {
+	font-weight: bold;
+	display:inline-block;
+	color: #999;
+	font-size: 14px;
+	letter-spacing: -0.01em;
+
 }
 
 

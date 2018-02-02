@@ -15,7 +15,6 @@
 //= require jquery_ujs
 //= require rails-ujs
 //= require turbolinks
-//= require trix
 //= require popper
 //= require tether
 //= require bootstrap-sprockets

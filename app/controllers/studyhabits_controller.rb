@@ -9,7 +9,7 @@ class StudyhabitsController < ApplicationController
 	end
 
 	def create
-		@studyhabits = studyhabit.create(studyhabit_params)
+		Studyhabit.create(studyhabit_params)
 		redirect_to root_path
 	end
 

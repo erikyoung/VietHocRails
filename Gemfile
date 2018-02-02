@@ -9,7 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 #necessary for bootstrap 4
-gem 'trix'
+
 gem 'jquery-rails'
 gem "mini_magick"
 gem "fog-aws"

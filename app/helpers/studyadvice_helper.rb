@@ -1,0 +1,2 @@
+module StudyadviceHelper
+end

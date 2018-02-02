@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 	#get 'blog' => "static_pages#blog", :as => "blog"
 
 
-	resources :blog_posts
+	resources :studyhabits
 	resources :courses, only: [:index, :show]
 	resources :lessons, only: [:show]
 	namespace :instructor do

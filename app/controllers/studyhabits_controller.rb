@@ -13,12 +13,13 @@ class StudyhabitsController < ApplicationController
 	end
 
 	def create
-		@studyhabit = studyhabits.create(studyhabit_params)
+
+	@studyhabit = Studyhabit.create(studyhabit_params)
 		if @studyhabit.valid?
-		redirect_to studyhabits_path
-	else 
+	redirect_to studyhabits_path
+		else 
 		render :new, status: :unprocessable_entity
-	end
+		end
 	end
 
 	private

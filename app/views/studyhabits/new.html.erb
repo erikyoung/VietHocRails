@@ -2,7 +2,7 @@
 	<h1>What's your Study Tip?</h1>
 	<%= simple_form_for @studyhabit do |f| %>
 		<%= f.input :title %>
-		<%= f.input :body %> 
+		<%= f.input :body, as: :trix_editor %> 
 		<br />
 		<%= f.submit 'Create', class: 'btn btn-primary' %> 
 	<% end %> 

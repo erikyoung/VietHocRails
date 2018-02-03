@@ -5,7 +5,7 @@ class StudyhabitsController < ApplicationController
 	end
 
 	def new
-		@studyhabit = Studyhabit.(params[:id])
+		@studyhabit = Studyhabit.new
 	end
 
 	def show
@@ -13,8 +13,12 @@ class StudyhabitsController < ApplicationController
 	end
 
 	def create
-		current_user.studyhabits.create(studyhabit_params)
+		@studyhabit = studyhabits.create(studyhabit_params)
+		if @studyhabit.valid?
 		redirect_to studyhabits_path
+	else 
+		render :new, status: :unprocessable_entity
+	end
 	end
 
 	private

@@ -5,12 +5,16 @@ class StudyhabitsController < ApplicationController
 	end
 
 	def new
-		@studyhabit = Studyhabit.new
+		@studyhabit = Studyhabit.(params[:id])
+	end
+
+	def show
+		@studyhabit = Studyhabit.find(params[:id])
 	end
 
 	def create
-		Studyhabit.create(studyhabit_params)
-		redirect_to root_path
+		current_user.studyhabits.create(studyhabit_params)
+		redirect_to studyhabits_path
 	end
 
 	private

@@ -3,19 +3,25 @@
   <h1 class="text-center"><%= current_course.title %></h1>
   <h2><%= image_tag current_course.image, class: 'img-fluid' %></h2>
   <br />
-  <%= link_to "Preview Student View", course_path(current_course), class: 'btn btn-info float-right' %>
-  
-  <div class="text-center">
-  	<%= link_to "Add a new section", new_instructor_course_section_path(current_course), class: 'btn btn-primary btn-lg' %>
-  </div>
 
-  <ul>
+  <div class="buttons-tab col-4">
+    <%= link_to "Preview Student View", course_path(current_course), class: 'btn btn-info' %>
+    
+   
+    	<%= link_to "Add a new section", new_instructor_course_section_path(current_course), class: 'btn btn-primary btn-lg' %>
+    
+   
+
+  
     <% current_course.sections.each do |section| %>
-      <li class="text-center">
-        <%= section.title %>
+      
         
-	        <%= link_to 'New Lesson', new_instructor_section_lesson_path(section), class: 'btn btn-primary btn-lg text-right', id: "special-button" %>
-	   </li>
+        
+	        <%= link_to 'New Lesson', new_instructor_section_lesson_path(section), class: 'btn btn-primary btn-lg', id: "special-button" %>
+
+          <% #= section.title %>
+  </div>
+    <ul>
         <br />
         <ul>
         <br />

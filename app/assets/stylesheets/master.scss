@@ -44,9 +44,13 @@ p {
 	border-bottom-width: 3px;
 }
 
+.buttons-tab {
+	display: inline-block;
+}
+
 #special-button {
 	background-color: #1598F2;
-	margin-left: 35px;
+	
 	margin-top: 20px;
 	display: inline-block;
 	color: #fff;
@@ -564,6 +568,13 @@ body {
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+}
+
+#new-advice-button {
+	margin-left: 35%;
+	width: 300px;
+	height: 50px;
+	padding: 10px;
 }
 
 .form-inline .form-control {

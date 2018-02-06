@@ -14,7 +14,7 @@ gem 'jquery-rails'
 gem "mini_magick"
 gem "fog-aws"
 gem 'font-awesome-rails'
-gem "figaro"
+gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'simple_form'
 gem 'devise'
 gem 'carrierwave', '~> 1.0'
